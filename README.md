@@ -17,7 +17,52 @@ Contributors:
 
 ------------
 
-# Compiled languages we like
+
+# Fascinating compiler stuff
+
+#### Future of Programming 
+
+[Presentation](https://www.youtube.com/watch?v=8pTEmbeENF4&t=2s) by Bret Victor (30 minutes)
+
+- A **must watch** for those interested in PL, or really any CS student \*\*
+- History and future of how we **collaborate** with computers
+
+#### matt.might.net
+
+[Blog by Matt Might](matt.might.net), a professor of PL at Univ Utah.
+
+- Great blog to for a low level understanding of higher level language features
+- Particularly good for Lisp-y features like syntax macros and lambda functions
+
+#### Compiling with Continuations
+
+[Textbook, available online](https://www.cambridge.org/core/books/compiling-with-continuations/7CA9C36DCE78AD82218E745F43A4E740) by Andrew Appel
+
+- Helps lay out the continuation abstraction 
+- In depth technique for compiling functional languages.
+- A different way of representing compilation, conceptually very fascinating
+- Uses Standard ML
+
+#### Parsing With Zippers
+
+[Paper](https://michaeldadams.org/papers/parsing-with-zippers/parsing-with-zippers.pdf)
+and [presentation](https://www.youtube.com/watch?v=6Wi-Kc6LDhc) by Pierce Darragh and Michael Adams, 2021.
+
+- Very creative and elegant parsing technique
+- Full CFG parser generator in 81 lines of OCaml
+- Paper won an functional pearl award (given to particularly beautiful functional algorithms)
+- Fundamentally different to state machine (NFA) parsers like Yacc
+
+#### Reflections on Trusting Trust 
+
+[Turing award acceptance speech](https://www.win.tue.nl/~aeb/linux/hh/thompson/trust.html) by Ken Thompson, about early UNIX era.
+
+- Legendary undetectable UNIX hack
+- Adds a vulnerability by sneaking a secret backdoor into the **compiler's compiler**.
+
+--------
+
+# Languages we like
 
 #### Rust 
 (imperative) 2016
@@ -74,49 +119,6 @@ Contributors:
 
 - Worth thinking about: is CSS *programming*? \*\*
 
---------
-
-# Fascinating compiler stuff
-
-#### Future of Programming 
-
-[Presentation](https://www.youtube.com/watch?v=8pTEmbeENF4&t=2s) by Bret Victor (30 minutes)
-
-- A **must watch** for those interested in PL, or really any CS student \*\*
-- History and future of how we **collaborate** with computers
-
-#### matt.might.net
-
-[Blog by Matt Might](matt.might.net), a professor of PL at Univ Utah.
-
-- Great blog to for a low level understanding of higher level language features
-- Particularly good for Lisp-y features like syntax macros and lambda functions
-
-#### Compiling with Continuations
-
-[Textbook, available online](https://www.cambridge.org/core/books/compiling-with-continuations/7CA9C36DCE78AD82218E745F43A4E740) by Andrew Appel
-
-- Helps lay out the continuation abstraction 
-- In depth technique for compiling functional languages.
-- A different way of representing compilation, conceptually very fascinating
-- Uses Standard ML
-
-#### Parsing With Zippers
-
-[Paper](https://michaeldadams.org/papers/parsing-with-zippers/parsing-with-zippers.pdf)
-and [presentation](https://www.youtube.com/watch?v=6Wi-Kc6LDhc) by Pierce Darragh and Michael Adams, 2021.
-
-- Very creative and elegant parsing technique
-- Full CFG parser generator in 81 lines of OCaml
-- Paper won an functional pearl award (given to particularly beautiful functional algorithms)
-- Fundamentally different to state machine (NFA) parsers like Yacc
-
-#### Reflections on Trusting Trust 
-
-[Turing award acceptance speech](https://www.win.tue.nl/~aeb/linux/hh/thompson/trust.html) by Ken Thompson, about early UNIX era.
-
-- Legendary undetectable UNIX hack
-- Adds a vulnerability by sneaking a secret backdoor into the **compiler's compiler**.
 
 --------
 
