@@ -6,7 +6,7 @@ A collection of the state of the art from throughout computer history.
 **This is a living document**
 In a fully democratic fashion, please delete or add anything you wish via PR.
 Add yourself as a contributors if you do!
-[Make a PR]()
+[Make a PR](https://github.com/jzimmerman135/CS107-resources)
 
 Contributors: 
 - Jacob Zimmerman (2023)
@@ -80,7 +80,7 @@ Contributors:
 
 --------
 
-## Awesome compiler stuff
+## Fascinating compiler stuff
 
 #### Future of Programming 
 
@@ -93,8 +93,8 @@ Contributors:
 
 [Blog by Matt Might](matt.might.net), a professor of PL at Univ Utah.
 
-- Great blog to for a low level understanding of higher level language features.
-- Particularly good for lisp-like features
+- Great blog to for a low level understanding of higher level language features
+- Particularly good for Lisp-y features like syntax macros and lambda functions
 
 #### Compiling with Continuations
 
@@ -126,8 +126,9 @@ and [presentation](https://www.youtube.com/watch?v=6Wi-Kc6LDhc) by Pierce Darrag
 
 ## Computer Language History
 
-The was a time when computers were rapidly growing in speed and capability. 
-But nobody knew really what the best way "program" was. The following decades lead to immense creativity
+There was a time early in computer history, when computers were rapidly growing in speed and capability, and researchers' questions outgrew the 
+capabililty of the programming tools for their time.
+With these new powerful machines nobody knew really what the best way "program" was. The following decades lead to immense creativity
 and created many of the features we consider *advanced* even today.
 
 Put yourself in the shoes of the pioneering men and women igniting the computer era,
@@ -159,6 +160,7 @@ and try to think how you would want to communicate with your computer
 #### C
 - Brian Kernighan & Dennis Ritchie, 1972
 - Most popular programming language of all time
+- You probably know it
 
 #### Prolog
 - Alain Colmerauer, 1972
@@ -169,5 +171,6 @@ and try to think how you would want to communicate with your computer
 
 #### Smalltalk
 - Alan Kay, 1972
-- Everything is an object, including the runtime and IDE 
-- Message passing interfaces, and encapsulation
+- Everything is an object — values, control flow, runtime, IDE, etc.
+- Message passing interfaces for encapsulation
+- Inheritance
