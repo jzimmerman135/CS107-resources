@@ -3,7 +3,8 @@
 
 A collection of the state of the art from throughout computer history.
 
-**This is a living document**
+**This is a living document.**
+
 In a fully democratic fashion, please delete or add anything you wish via PR.
 Add yourself as a contributors if you do!
 [Make a PR](https://github.com/jzimmerman135/CS107-resources)
@@ -75,7 +76,7 @@ Contributors:
 
 --------
 
-## Fascinating compiler stuff
+# Fascinating compiler stuff
 
 #### Future of Programming 
 
@@ -119,7 +120,7 @@ and [presentation](https://www.youtube.com/watch?v=6Wi-Kc6LDhc) by Pierce Darrag
 
 --------
 
-## Computer Language History
+# Computer Language History
 
 There was a time early in computer history, when computers were rapidly growing in speed and capability, and researchers' questions outgrew the 
 capabililty of the programming tools for their time.
@@ -128,7 +129,7 @@ and created many of the features we consider *advanced* even today.
 
 Put yourself in the shoes of the pioneering men and women igniting the computer era,
 unlearn what you consider "programming" to be,
-and try to think how you would want to communicate with your computer
+and try to think how you would want to communicate with your computer. How does this differ from how you do it today?
 
 #### Assembly 
 - Kathleen Booth, 1947
