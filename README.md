@@ -19,7 +19,6 @@ Contributors:
 # Compiled languages we like
 
 #### Rust 
-
 (imperative) 2016
 
 - "Borrow checker" semantics associate a lifetime with a chunk of memory, this guarantees at compile time that pointers are valid.
@@ -28,26 +27,22 @@ Contributors:
 - A fantastic, practical language \*\*
 
 #### Haskell 
-
 (pure functional) 1992
 
 - Pure functions allow compile time correctness guarantees
 
 #### Vale 
-
 (imperative) 2020
 
 - Generational indices for fast reference counting (automatic memory management)
 
 #### Scheme
-
 (functional s-exp) 1972
 
 - Compiled using continuation passing style
 - Features the most powerful control flow primitive in all programming `(call/cc ...)` \*\*
 
 #### Idris 
-
 (pure functional) 2020s
 
 - First class types! Extends type inference for types to have values, `typeof append = Vec n -> Vec (n + 1)` 
