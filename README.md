@@ -5,13 +5,12 @@ A collection of the state of the art from throughout computer history.
 
 **This is a living document.**
 
-In a fully democratic fashion, please delete or add anything you wish via PR.
+In a fully democratic fashion, please delete or add anything you wish via a thread response or [PR](https://github.com/jzimmerman135/cs107-resources.git).
 Add yourself as a contributors if you do!
-[Make a PR](https://github.com/jzimmerman135/CS107-resources)
+
 
 Contributors: 
 - Jacob Zimmerman (2023)
-- Ronit Singh (2023)
 
 \*\* opinion
 
@@ -124,10 +123,9 @@ and [presentation](https://www.youtube.com/watch?v=6Wi-Kc6LDhc) by Pierce Darrag
 
 # Computer Language History
 
-There was a time early in computer history, when computers were rapidly growing in speed and capability, and researchers' questions outgrew the 
-capabililty of the programming tools for their time.
+There was a time early in computer history from the 50's through 70's, when computers were rapidly growing in speed, memory and popularity. Given this new capability, researchers' questions outgrew the programming tools for their time.
 With these new powerful machines nobody knew really what the best way "program" was. The following decades lead to immense creativity
-and created many of the features we consider *advanced* even today.
+and invented many of the features we consider *advanced* even today.
 
 Put yourself in the shoes of the pioneering men and women igniting the computer era,
 unlearn what you consider "programming" to be,
@@ -145,11 +143,13 @@ and try to think how you would want to communicate with your computer. How does 
 - Highly imperative, similar to c
 
 #### Lisp 
-- John McCarthy, 1960
+- John McCarthy, 1958!!!!!!!!!
 - First high-level language
+- Functional programming based on lambda calculus
 - Garbage collected automatic memory management
 - Dynamic typing
-- Used to build the "Meta-circular Evaluator", which some call the greatest program ever written. A Lisp interpreter written in ~80 lines of Lisp.
+- Code as data, powerful AST-level macros
+- Used to build the "Meta-circular Evaluator", which some call the greatest program ever written. A Lisp implementation written in ~80 lines of Lisp.
 
 #### Snobol
 - David Farber, 1962
@@ -169,6 +169,6 @@ and try to think how you would want to communicate with your computer. How does 
 
 #### Smalltalk
 - Alan Kay, 1972
-- Everything is an object — values, control flow, runtime, IDE, etc.
+- Everything is an object — values, control flow, runtime, GUI IDE, etc.
 - Message passing interfaces for encapsulation
 - Inheritance
